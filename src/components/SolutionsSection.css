@@ -1,0 +1,21 @@
+.solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.solution-card {
+    padding: 2.5rem 2rem;
+}
+
+.icon-wrap {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--glass-border);
+}
